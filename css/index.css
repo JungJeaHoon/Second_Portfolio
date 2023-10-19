@@ -404,6 +404,9 @@ object-fit: cover;
   position: relative;
   display: inline-block;
 }
+.conTxt > p {
+  font-weight: 300;
+}
 .conTxt > h3::after {
   position: absolute;
   top: 2px;
@@ -422,13 +425,13 @@ object-fit: cover;
     position: relative; width: 340px; height: 110px; top: 50px;  margin:0 auto; padding:0; overflow: hidden;}
 	.banner ul {position: absolute; margin: 0px; padding:0; list-style: none; }
 	.banner ul li {
-    color: #fff;
+    color: #5f5f5f;
     float: left; width: 340px; height: 210px; margin:0; padding:0;}
 
 
     /*top버튼*/
 
-.topBtn {
+/* .topBtn {
   display: inline-block;
   width: 50px;
   height: 48px;
@@ -449,6 +452,6 @@ object-fit: cover;
 .fa-arrow-up {
   color: #fff;
   font-size: 30px;  
-}
+} */
 
 

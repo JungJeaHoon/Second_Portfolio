@@ -98,31 +98,31 @@ $(document).ready(function() {
 
 /*top버튼*/
 
-let topBtn = document.querySelector('.topBtn');
+// let topBtn = document.querySelector('.topBtn');
 
-if (topBtn) {
-  topBtn.addEventListener('click', function (e){
-    e.preventDefault();
-    window.scrollTo({top: 0, behavior: 'smooth'});
-  });
-}
-
-
-window.addEventListener('scroll', function(){
-  if (this.scrollY > 200){
-    topBtn.classList.add('on');
-  }else{
-    topBtn.classList.remove('on');
-  }
-})
+// if (topBtn) {
+//   topBtn.addEventListener('click', function (e){
+//     e.preventDefault();
+//     window.scrollTo({top: 0, behavior: 'smooth'});
+//   });
+// }
 
 
-const element = document.getElementById("topBtn"); // "topBtn" ID를 가진 요소를 찾아 변수에 할당
+// window.addEventListener('scroll', function(){
+//   if (this.scrollY > 200){
+//     topBtn.classList.add('on');
+//   }else{
+//     topBtn.classList.remove('on');
+//   }
+// })
 
-if (element) {
-  element.addEventListener("click", function() {
-    // 이벤트 핸들러 코드
-  });
-} else {
-  console.error("topBtn 요소가 존재하지 않습니다.");
-}
+
+// const element = document.getElementById("topBtn"); // "topBtn" ID를 가진 요소를 찾아 변수에 할당
+
+// if (element) {
+//   element.addEventListener("click", function() {
+//     // 이벤트 핸들러 코드
+//   });
+// } else {
+//   console.error("topBtn 요소가 존재하지 않습니다.");
+// }
